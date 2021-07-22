@@ -46,7 +46,7 @@ app.use(
   baseURL: APP_URL,
   // 👇 add this 👇
   authorizationParams: {
-   response_type: "id_token code",
+   response_type: "id_token",
    audience: "https://expenses-api",
   },
   // 👆 add this 👆
